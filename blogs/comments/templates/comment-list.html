@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Comments</h1>
+<ul>
+    {% for comment in comments %}
+    <li>
+        {{comment.description}}
+        {{comment.author_id}}
+        {{comment.creation_date}}
+        {{comment.article_id}}
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}
