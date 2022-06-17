@@ -1,0 +1,15 @@
+.list1 {
+    display: flex;
+    width: 700px;
+}
+
+img {
+    width: 700px;
+}
+
+body {
+    background-color: yellow;
+}
+.red {
+    color: red;
+}
